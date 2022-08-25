@@ -1,5 +1,7 @@
 #include "binary_trees.h"
 
+int check_comp(const binary_tree_t *tree, size_t index, size_t size);
+
 /**
  * binary_tree_is_complete - checks if a binary tree is complete
  * @tree: root node of the tree
