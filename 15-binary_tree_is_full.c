@@ -10,9 +10,9 @@ int binary_tree_is_full(const binary_tree_t *tree)
 	binary_tree_t *lt, *rt;
 
 	if (!tree)
-		return (1);
-	lt = root->left;
-	rt = root->right;
+		return (0);
+	lt = tree->left;
+	rt = tree->right;
 
 	if (!lt && !rt)
 		return (1);
